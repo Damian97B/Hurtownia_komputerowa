@@ -1,0 +1,20 @@
+@relation QueryResult
+
+@attribute nazwa {'MSI Radeon RX 550 4GT','Obudowa jakas tam','Dysk hdd','Radeon hd 7770','Klawiatura zwykla','AMD Athlon 3000G','Myszka zwykla','AMD Phenom II X4 965 BE','Myszka gamingowa','Myszka zwykła','Intel Core i3-9100F','Dysk ssd','Klawiatura gamingowa','Geforce Ti 1650'}
+@attribute sum numeric
+
+@data
+'MSI Radeon RX 550 4GT',4
+'Obudowa jakas tam',20
+'Dysk hdd',11
+'Radeon hd 7770',24
+'Klawiatura zwykla',4
+'AMD Athlon 3000G',3
+'Myszka zwykla',10
+'AMD Phenom II X4 965 BE',14
+'Myszka gamingowa',8
+'Myszka zwykła',1
+'Intel Core i3-9100F',19
+'Dysk ssd',8
+'Klawiatura gamingowa',9
+'Geforce Ti 1650',1

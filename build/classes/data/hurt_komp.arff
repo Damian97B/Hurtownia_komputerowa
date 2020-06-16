@@ -1,0 +1,16 @@
+@relation QueryResult
+
+@attribute imie {Zbychu,Halina,Helena,Ferdynand,Pat,John,Edzio,Arnold}
+@attribute nazwisko {Rychu,Kiepska,Śliwińska,Kiepski,Mat,Paździoch,Kowalski,Listonosz,Boczek}
+@attribute sum numeric
+
+@data
+Zbychu,Rychu,1290
+Halina,Kiepska,2180
+Helena,Śliwińska,2260
+Ferdynand,Kiepski,2880
+Pat,Mat,3080
+Helena,Paździoch,3540
+John,Kowalski,3890
+Edzio,Listonosz,4310
+Arnold,Boczek,4660

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="hurtowniaKomputerowa.jnlp">
+  <information>
+    <title>hurtowniaKomputerowa</title>
+    <vendor>Damian</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="hurtowniaKomputerowa.jar" size="113400" download="eager" />
+    <jar href="lib\postgresql-42.2.14.jre7.jar" size="927312" download="eager" />
+    <jar href="lib\postgresql-42.2.8.jar" size="900064" download="eager" />
+    <jar href="lib\weka3_8.jar" size="10997325" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="Controllers.HurtowniaKomputerowa"  name="hurtowniaKomputerowa" />
+  <update check="always"/>
+</jnlp>

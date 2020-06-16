@@ -1,0 +1,105 @@
+@relation QueryResult
+
+@attribute imie {John,Arnold,Pat,Edzio,Zbychu,Helena,Halina,Ferdynand}
+@attribute nazwisko {Kowalski,Boczek,Mat,Listonosz,Rychu,Śliwińska,Kiepska,Paździoch,Kiepski}
+@attribute count numeric
+@attribute nazwa {'Klawiatura gamingowa','Radeon hd 7770','Dysk hdd','MSI Radeon RX 550 4GT','Klawiatura zwykla','Myszka gamingowa','Obudowa jakas tam','Intel Core i3-9100F','Myszka zwykla','Dysk ssd','AMD Phenom II X4 965 BE','AMD Athlon 3000G','Geforce Ti 1650','Myszka zwykła'}
+@attribute kwota_calkowita numeric
+
+@data
+John,Kowalski,1,'Klawiatura gamingowa',1420
+Arnold,Boczek,1,'Radeon hd 7770',700
+Pat,Mat,1,'Dysk hdd',290
+Arnold,Boczek,1,'Radeon hd 7770',850
+Arnold,Boczek,1,'MSI Radeon RX 550 4GT',900
+Edzio,Listonosz,2,'Klawiatura zwykla',1210
+Zbychu,Rychu,2,'Myszka gamingowa',1040
+Helena,Śliwińska,1,'Klawiatura zwykla',1210
+John,Kowalski,1,'Obudowa jakas tam',970
+Halina,Kiepska,1,'Radeon hd 7770',350
+Edzio,Listonosz,1,'Intel Core i3-9100F',700
+Edzio,Listonosz,1,'Dysk hdd',290
+Helena,Paździoch,1,'Dysk hdd',350
+Helena,Paździoch,1,'Myszka zwykla',400
+Ferdynand,Kiepski,1,'Myszka zwykla',400
+Arnold,Boczek,1,'Klawiatura zwykla',1210
+John,Kowalski,1,'Dysk hdd',350
+Helena,Śliwińska,1,'Obudowa jakas tam',1210
+Helena,Paździoch,2,'Dysk ssd',970
+Helena,Paździoch,2,'Klawiatura gamingowa',970
+Zbychu,Rychu,1,'Radeon hd 7770',1040
+Arnold,Boczek,1,'Klawiatura gamingowa',850
+Pat,Mat,1,'Intel Core i3-9100F',400
+John,Kowalski,1,'Dysk ssd',350
+Helena,Paździoch,1,'Intel Core i3-9100F',850
+Arnold,Boczek,1,'AMD Phenom II X4 965 BE',900
+Arnold,Boczek,1,'Intel Core i3-9100F',700
+Arnold,Boczek,1,'AMD Athlon 3000G',1000
+Ferdynand,Kiepski,1,'Myszka zwykla',950
+John,Kowalski,1,'Radeon hd 7770',1420
+Arnold,Boczek,1,'AMD Phenom II X4 965 BE',1210
+Ferdynand,Kiepski,1,'Geforce Ti 1650',1530
+Edzio,Listonosz,1,'Myszka zwykla',290
+Pat,Mat,1,'Dysk ssd',990
+Arnold,Boczek,1,'Myszka zwykła',850
+Edzio,Listonosz,1,'Klawiatura gamingowa',290
+Halina,Kiepska,1,'Intel Core i3-9100F',700
+Pat,Mat,1,'Myszka zwykla',400
+Zbychu,Rychu,1,'Intel Core i3-9100F',250
+John,Kowalski,2,'Myszka zwykla',400
+Halina,Kiepska,1,'MSI Radeon RX 550 4GT',550
+Arnold,Boczek,1,'AMD Athlon 3000G',850
+Pat,Mat,1,'Myszka zwykla',290
+Helena,Paździoch,1,'Dysk ssd',350
+Halina,Kiepska,2,'Dysk hdd',290
+Ferdynand,Kiepski,1,'Obudowa jakas tam',400
+Pat,Mat,1,'Myszka gamingowa',990
+Ferdynand,Kiepski,1,'Intel Core i3-9100F',1530
+Pat,Mat,2,'Intel Core i3-9100F',700
+Edzio,Listonosz,1,'MSI Radeon RX 550 4GT',550
+Helena,Śliwińska,1,'Radeon hd 7770',700
+John,Kowalski,1,'Intel Core i3-9100F',1420
+John,Kowalski,2,'Obudowa jakas tam',400
+Ferdynand,Kiepski,1,'Radeon hd 7770',950
+Edzio,Listonosz,2,'AMD Phenom II X4 965 BE',1210
+Helena,Śliwińska,1,'Radeon hd 7770',350
+Helena,Śliwińska,1,'Intel Core i3-9100F',700
+Helena,Śliwińska,1,'AMD Phenom II X4 965 BE',1210
+John,Kowalski,1,'Dysk ssd',970
+Arnold,Boczek,1,'Obudowa jakas tam',1000
+Pat,Mat,1,'Obudowa jakas tam',400
+John,Kowalski,1,'Myszka gamingowa',1420
+Edzio,Listonosz,1,'Dysk ssd',350
+John,Kowalski,1,'AMD Athlon 3000G',1420
+Helena,Paździoch,2,'Myszka gamingowa',970
+Edzio,Listonosz,2,'Obudowa jakas tam',1210
+Halina,Kiepska,2,'Klawiatura gamingowa',290
+Ferdynand,Kiepski,1,'Obudowa jakas tam',1530
+Ferdynand,Kiepski,1,'Intel Core i3-9100F',400
+Edzio,Listonosz,1,'Dysk hdd',350
+Helena,Paździoch,2,'Obudowa jakas tam',970
+Helena,Paździoch,1,'Intel Core i3-9100F',400
+John,Kowalski,1,'Radeon hd 7770',970
+Helena,Paździoch,1,'Obudowa jakas tam',400
+Zbychu,Rychu,1,'MSI Radeon RX 550 4GT',1040
+Ferdynand,Kiepski,1,'Intel Core i3-9100F',950
+John,Kowalski,1,'Obudowa jakas tam',1420
+Edzio,Listonosz,1,'Radeon hd 7770',700
+Helena,Paździoch,1,'Dysk hdd',850
+John,Kowalski,2,'Intel Core i3-9100F',400
+John,Kowalski,1,'Dysk hdd',970
+John,Kowalski,1,'Klawiatura gamingowa',970
+Ferdynand,Kiepski,1,'Myszka gamingowa',1530
+Halina,Kiepska,2,'Myszka zwykla',290
+Pat,Mat,2,'Radeon hd 7770',700
+Helena,Paździoch,2,'Dysk hdd',970
+Arnold,Boczek,1,'AMD Phenom II X4 965 BE',1000
+Zbychu,Rychu,1,'Intel Core i3-9100F',1040
+Arnold,Boczek,1,'Obudowa jakas tam',1210
+Pat,Mat,1,'Klawiatura gamingowa',290
+Helena,Paździoch,2,'Radeon hd 7770',970
+John,Kowalski,1,'Myszka gamingowa',970
+Pat,Mat,1,'Radeon hd 7770',990
+Halina,Kiepska,1,'Radeon hd 7770',700
+John,Kowalski,1,'Radeon hd 7770',350
+Helena,Paździoch,1,'Dysk ssd',850

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.PrzychodController">
+   <children>
+      <VBox prefHeight="500.0" prefWidth="429.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Przychód z miesiącami na dane lata:" />
+            <TableView fx:id="przychod" prefHeight="378.0" prefWidth="387.0">
+              <columns>
+                  <TableColumn fx:id="col_miesiac" prefWidth="89.0" style="-fx-alignment: CENTER;" text="miesiąc" />
+                  <TableColumn fx:id="col_rok" prefWidth="139.0" style="-fx-alignment: CENTER;" text="rok" />
+                  <TableColumn fx:id="col_zarobek" prefWidth="181.0" style="-fx-alignment: CENTER;" text="Zarobek" />
+              </columns>
+            </TableView>
+            <VBox prefHeight="79.0" prefWidth="514.0">
+               <children>
+                  <HBox prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <VBox prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Filtrowanie:" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="- według roku" />
+                              <TextField fx:id="searchfield" maxHeight="-Infinity" maxWidth="-Infinity" promptText="Podaj rok" />
+                              <Button fx:id="filtrujbutton" mnemonicParsing="false" text="Filtruj">
+                                 <VBox.margin>
+                                    <Insets left="5.0" top="10.0" />
+                                 </VBox.margin></Button>
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0">
+                                 <VBox.margin>
+                                    <Insets left="20.0" />
+                                 </VBox.margin>
+                              </Text>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="- według miesiąca">
+                                 <VBox.margin>
+                                    <Insets left="20.0" />
+                                 </VBox.margin>
+                              </Text>
+                              <TextField fx:id="searchfieldmiesiac" promptText="Podaj miesiąc">
+                                 <VBox.margin>
+                                    <Insets left="20.0" />
+                                 </VBox.margin>
+                              </TextField>
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+         <HBox.margin>
+            <Insets left="10.0" />
+         </HBox.margin>
+      </VBox>
+      <VBox prefHeight="500.0" prefWidth="438.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Przychód przez dany rok:" />
+            <TableView fx:id="przychodrok" prefHeight="378.0" prefWidth="441.0">
+               <columns>
+                  <TableColumn fx:id="col_rok1" prefWidth="135.0" style="-fx-alignment: CENTER;" text="rok" />
+                  <TableColumn fx:id="col_zarobek1" prefWidth="157.0" style="-fx-alignment: CENTER;" text="Zarobek" />
+               </columns>
+            </TableView>
+         </children>
+         <HBox.margin>
+            <Insets left="10.0" />
+         </HBox.margin>
+      </VBox>
+   </children>
+</HBox>

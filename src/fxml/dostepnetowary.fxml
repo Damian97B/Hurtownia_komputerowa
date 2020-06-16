@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.DostepnetowaryController">
+   <children>
+      <VBox prefHeight="400.0" prefWidth="439.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Dostępne produkty:" wrappingWidth="148.70361328125" />
+            <TableView fx:id="review" prefHeight="200.0" prefWidth="413.0">
+              <columns>
+                <TableColumn fx:id="col_id" prefWidth="39.0" text="id" />
+                <TableColumn fx:id="col_nazwa" prefWidth="143.0" text="nazwa" />
+                  <TableColumn fx:id="col_ilosc" prefWidth="43.0" text="ilość" />
+                  <TableColumn fx:id="col_model" prefWidth="103.0" text="model" />
+                  <TableColumn fx:id="col_cena" prefWidth="109.0" text="cena za sztukę" />
+              </columns>
+            </TableView>
+         </children>
+      </VBox>
+   </children>
+</HBox>
